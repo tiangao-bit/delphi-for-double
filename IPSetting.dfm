@@ -1,0 +1,109 @@
+object FrmIPSetting: TFrmIPSetting
+  Left = 590
+  Top = 264
+  Width = 359
+  Height = 202
+  BorderIcons = [biSystemMenu]
+  Caption = '…Ë÷√IPµÿ÷∑'
+  Color = clBtnFace
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -19
+  Font.Name = 'Œ¢»Ì—≈∫⁄'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 25
+  object Label1: TLabel
+    Left = 90
+    Top = 27
+    Width = 92
+    Height = 25
+    Caption = '192.168.1.'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Œ¢»Ì—≈∫⁄'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 48
+    Top = 67
+    Width = 271
+    Height = 21
+    Caption = 'IP–ﬁ∏ƒ∫Û£¨±ÿ–Î÷ÿ∆Ùøÿ÷∆∆˜≤≈ƒ‹…˙–ß£°'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Œ¢»Ì—≈∫⁄'
+    Font.Style = []
+    ParentFont = False
+  end
+  object ComboBox1: TComboBox
+    Left = 190
+    Top = 23
+    Width = 67
+    Height = 33
+    Style = csDropDownList
+    ItemHeight = 25
+    TabOrder = 0
+    Items.Strings = (
+      '100'
+      '101')
+  end
+  object Btn_OK: TLbButton
+    Left = 61
+    Top = 105
+    Width = 88
+    Height = 38
+    Caption = '»∑ ∂®'
+    Color = 15519380
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Œ¢»Ì—≈∫⁄'
+    Font.Style = []
+    HotTrackFont.Charset = ANSI_CHARSET
+    HotTrackFont.Color = clWindowText
+    HotTrackFont.Height = -16
+    HotTrackFont.Name = 'Œ¢»Ì—≈∫⁄'
+    HotTrackFont.Style = []
+    LightColor = 16574164
+    ModalResult = 1
+    ParentColor = False
+    ParentFont = False
+    ShadowColor = clBlack
+    Style = bsModern
+    TabOrder = 1
+    UseHotTrackFont = False
+  end
+  object Btn_Cancel: TLbButton
+    Left = 200
+    Top = 105
+    Width = 88
+    Height = 38
+    Caption = '»° œ˚'
+    Color = 15519380
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Œ¢»Ì—≈∫⁄'
+    Font.Style = []
+    HotTrackFont.Charset = ANSI_CHARSET
+    HotTrackFont.Color = clWindowText
+    HotTrackFont.Height = -16
+    HotTrackFont.Name = 'Œ¢»Ì—≈∫⁄'
+    HotTrackFont.Style = []
+    LightColor = 16574164
+    ModalResult = 2
+    ParentColor = False
+    ParentFont = False
+    ShadowColor = clBlack
+    Style = bsModern
+    TabOrder = 2
+    UseHotTrackFont = False
+  end
+end
